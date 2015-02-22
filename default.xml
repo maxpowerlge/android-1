@@ -523,10 +523,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="androidarmv6/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <!-- display-caf -->
-<project name="kirmaniarslan/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x27a" revision="cm-12.0-caf-msm7x27a" remote="github"/>
-<!-- media-caf -->
-<project name="LegacyXperia/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x27a" revision="cm-12.0-caf-legacy" remote="github"/>
+  <!-- display-caf and media-caf-->
+<project name="android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" remote="msm7x30" revision="cm-12.0-caf-7x30" />
+<project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" remote="msm7x30" revision="cm-12.0-caf-7x30" />
 <!-- Device Tree, Kernel and Vendor -->
 <project path="device/lge/msm7x27a-common" name="CyanogenLGE/android_device_lge_msm7x27a-common" revision="cm-12.0" remote="github"/>
 <project path="device/lge/e610" name="CyanogenLGE/android_device_lge_e610" revision="cm-12.0" remote="github"/>

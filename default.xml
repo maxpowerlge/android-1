@@ -9,6 +9,10 @@
   <remote  name="github"
            fetch=".."
            review="review.androidarmv6.org" />
+           
+  <remote name="msm7x30"
+          fetch="https://github.com/msm7x30"
+          review="msm7x30.org:8000" />
 
   <remote  name="caf"
            fetch="git://codeaurora.org/"
